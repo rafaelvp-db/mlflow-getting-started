@@ -1,5 +1,6 @@
 repos:
 -   repo: https://github.com/rafaelvp-db/mlflow-getting-started.git
+    rev: master
     hooks:
     -   id: clean-notebooks
         name: Cleans notebook output.
