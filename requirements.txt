@@ -1,0 +1,9 @@
+wheel
+mlflow==1.27.0
+ipython
+jupyter
+scikit-learn==1.1.1
+matplotlib
+pre-commit
+nb-clean==2.1.0
+pandas
