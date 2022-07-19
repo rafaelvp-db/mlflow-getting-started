@@ -6,9 +6,6 @@ env:
 	pip install --upgrade pip && \
 	pip install -r requirements.txt
 
-config:
-	git config --local include.path ../.gitconfig
-
 init: env config
 
 clean:

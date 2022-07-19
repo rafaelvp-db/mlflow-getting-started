@@ -1,0 +1,7 @@
+repos:
+-   repo: https://github.com/rafaelvp-db/mlflow-getting-started.git
+    hooks:
+    -   id: clean-notebooks
+        name: Cleans notebook output.
+        description: TCleans notebook output.
+        entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace ./notebooks/jupyter/*.ipynb
