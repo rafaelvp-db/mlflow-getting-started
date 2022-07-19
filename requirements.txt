@@ -4,5 +4,5 @@ ipython
 jupyter
 scikit-learn==1.1.1
 matplotlib
-pre-commit==2.4.0
 pandas
+pre-commit==1.4.0
