@@ -27,6 +27,10 @@
     * Next, we run an inference test with this model, in order to guarantee that it works
     * Finally, we promote this model to **Staging**
 
+## Additional details
+
+* For simplicity purposes, we are using MLflow with a SQLite backend. This is not recommended in a production setting, but it is good enough for the sake of this example.
+
 ## References
 
 * [MLflow Website](https://mlflow.org/)
