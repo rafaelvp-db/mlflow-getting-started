@@ -2,6 +2,7 @@
 
 **TLDR;** this repo contains some starter code in order to become familiar with [MLflow Tracking](https://www.mlflow.org/docs/latest/tracking.html) and [MLflow Model Registry](https://www.mlflow.org/docs/latest/model-registry.html).
 
+This is a companion repo to this Medium blog post: Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 2
 
 ## Dependencies
 
