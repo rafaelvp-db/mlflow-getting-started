@@ -2,7 +2,7 @@
 
 **TLDR;** this repo contains some starter code in order to become familiar with [MLflow Tracking](https://www.mlflow.org/docs/latest/tracking.html) and [MLflow Model Registry](https://www.mlflow.org/docs/latest/model-registry.html).
 
-This is a companion repo to this Medium blog post: Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 2
+This is a companion repo to this Medium blog post: [Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 2](https://medium.com/@rafaelpierre/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-2-bbc980a1f8dc)
 
 ## Dependencies
 
@@ -12,13 +12,7 @@ This is a companion repo to this Medium blog post: Keeping Your Machine Learning
 
 ## Quickstart
 
-* Clone this repo: `git clone https://github.com/rafaelvp-db/mlflow-getting-started.git`
-* From the local repo folder:
-    * Create a virtual environment with `python -m venv .venv`
-    * Run `make init` to install the required packages and configure pre-commit hooks
-* Run the notebooks from the `databricks` or `jupyter` folder
-    * If you have a non-community Databricks workspace, feel free to link this repo to your workspace and run the notebooks in the `databricks` folder
-    * If you don't have a Databricks environment and want to run the code locally, please run the notebooks in the `jupyter` folder
+Please follow the steps described in this [Medium post](https://medium.com/@rafaelpierre/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-2-bbc980a1f8dc).
 
 ## Workflow Steps
 
@@ -30,7 +24,7 @@ This is a companion repo to this Medium blog post: Keeping Your Machine Learning
 
 ## Additional details
 
-* For simplicity purposes, we are using MLflow with a SQLite backend. This is not recommended in a production setting, but it is good enough for the sake of this example.
+* For simplicity purposes, for the **Jupyter** version we are using MLflow with a SQLite backend. This is not recommended in a production setting, but it is good enough for the sake of this example.
 
 ## References
 
