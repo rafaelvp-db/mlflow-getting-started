@@ -1,6 +1,9 @@
--   repo: local
+repos:
+  - repo: local
     hooks:
-    -   id: nbconvert
-        name: nbconvert
-        entry: ./pre-commit.sh
-        language: script
+      - id: jupyter-nb-clear-output
+        name: jupyter-nb-clear-output
+        files: \.ipynb$
+        stages: [commit]
+        language: system
+        entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace
