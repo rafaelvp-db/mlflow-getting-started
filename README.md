@@ -1,8 +1,13 @@
 # Getting started with MLflow
 
+<img src="https://github.com/rafaelvp-db/mlflow-getting-started/raw/master/img/model-registry-new.png">
+
 **TLDR;** this repo contains some starter code in order to become familiar with [MLflow Tracking](https://www.mlflow.org/docs/latest/tracking.html) and [MLflow Model Registry](https://www.mlflow.org/docs/latest/model-registry.html).
 
-This is a companion repo to this Medium blog post: [Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 2](https://medium.com/@rafaelpierre/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-2-bbc980a1f8dc)
+This is a companion repo to the following Medium posts: 
+
+* [Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 1](https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-1-f8ca857b5971)
+* [Keeping Your Machine Learning Models on the Right Track: Getting Started with MLflow, Part 2](https://mlopshowto.com/keeping-your-machine-learning-models-on-the-right-track-getting-started-with-mlflow-part-2-bbc980a1f8dc)
 
 ## Dependencies
 
