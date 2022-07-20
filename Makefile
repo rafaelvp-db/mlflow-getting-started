@@ -6,9 +6,7 @@ env:
 	pip install --upgrade pip && \
 	pip install wheel && \
 	pip install -r requirements.txt && \
-	rm -rf nbhooks && \
-	git clone https://gitlab.com/iamlikeme/nbhooks && \
-	cd nbhooks && pip install .
+	pre-commit install
 
 config:
 	git config --local include.path ../.gitconfig
